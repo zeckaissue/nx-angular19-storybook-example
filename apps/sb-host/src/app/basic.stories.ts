@@ -10,7 +10,7 @@ type Story = StoryObj;
 export const Button: Story = {
   render: () => ({
     template: `
-      <button>
+      <button class="bg-test p-2 text-white">
         plain angular button
       </button>
     `,
